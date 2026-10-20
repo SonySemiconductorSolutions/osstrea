@@ -1,0 +1,33 @@
+[project]
+name = "osstrea"
+version = "1.0.0"
+description = "OSSTREA is a tool to help evaluate risk of patents contained within OSS."
+readme = "README.md"
+license = {file = "LICENSE.md"}
+requires-python = ">= 3.12"
+dependencies = [
+    "pandas>=2.2.3",
+    "xlrd>=2.0.1",
+    "openpyxl>=3.1.5",
+    "useful-types>=0.2.1",
+]
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.urls]
+Homepage = "https://github.com/SonySemiconductorSolutions/osstrea"
+Repository = "https://github.com/SonySemiconductorSolutions/osstrea"
+
+[project.scripts]
+osstrea = "main:main"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["main"]
+packages = ["osstrea"]

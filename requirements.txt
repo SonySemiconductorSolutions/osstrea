@@ -1,0 +1,22 @@
+et-xmlfile==2.0.0
+    # via openpyxl
+numpy==2.2.4
+    # via pandas
+openpyxl==3.1.5
+    # via osstrea
+pandas==2.2.3
+    # via osstrea
+python-dateutil==2.9.0.post0
+    # via pandas
+pytz==2025.2
+    # via pandas
+six==1.17.0
+    # via python-dateutil
+typing-extensions==4.16.0
+    # via useful-types
+tzdata==2025.2
+    # via pandas
+useful-types==0.2.1
+    # via osstrea
+xlrd==2.0.1
+    # via osstrea
